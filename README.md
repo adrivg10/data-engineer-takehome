@@ -45,8 +45,10 @@ There is an extra functionality implemented that you can check running
 
 ## Exercise_2
 if you have already used your credentials to connect to AWS server :
+
 `python exercise_2.py [image_path] [output_directory]`
 
 Otherwise: 
+
 `python exercise_2.py [source_bucket] [destination_bucket] --Access_key [Access key credential for AWS] --secret_access_key [secret_access_key]`
 
