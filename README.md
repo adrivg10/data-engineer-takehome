@@ -29,3 +29,26 @@ Guidelines:
 - Your script should handle any errors that may occur during the opening of image file, copy process and anywhere else you deem necessary
 - Your script should be well commented and easy to understand
 - Your script should be executed from the command line
+
+# How to use 
+
+## Exercise_1
+
+`python exercise_1.py [image_path] [output_directory]`
+### Example 
+`python exercise_1.py test\test_1.png test\output`
+
+There is an extra functionality implemented that you can check running
+`python exercise_1.py [image_path] [output_directory] --extra True`
+### Example
+`python exercise_1.py test\test_1.png test\output --extra True`
+
+## Exercise_2
+if you have already use your credentials to connect to AWS server :
+`python exercise_2.py [image_path] [output_directory]`
+
+Otherwise: 
+`python exercise_2.py [source_bucket] [destination_bucket] --Access_key [Access key credential for AWS] --secret_access_key [secret_access_key]`
+### Example
+
+
