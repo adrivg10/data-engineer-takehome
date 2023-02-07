@@ -45,7 +45,7 @@ def face_detector(input_path, output_directory, marked_faces=False):
             cropped_img.save(face_file)
 
     # Extra functionality: It will save a copy of the image with a rectangle in the faces that were detected 
-    if marked_faces:
+    if args.extra:
         # We use the Imagedraw object from the original image
         img_2 = ImageDraw.Draw(img)
         # We draw rectangles iterating through all the images (we appended the 4 coordinates for each face detected during the previous loop) 
